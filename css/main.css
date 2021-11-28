@@ -256,6 +256,7 @@ main{
     font-size: 15px;
 }
 .right_side_ab{
+    text-align: center;
     width: fit-content;
     height: fit-content;
     padding: 20px;
