@@ -268,7 +268,7 @@ main{
 }
 .about_us{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 120px;
 }
 .left_side_ab{
@@ -279,7 +279,14 @@ main{
     background: rgba(34, 35, 35, 0.6);
     backdrop-filter: blur(10px);
     border-radius: 10px;
+    transition: all 0.5s ease-out;
 }
+
+.left_side_ab:hover {
+        box-shadow: 0 15px 20px rgba(199, 7, 7, 0.508);
+        transform: translateY(-7px);
+        transition: all 0.5s ease-out;
+      }
 .left_side_ab h2{
     color: white;
     font-weight: 700;
@@ -296,20 +303,6 @@ main{
     margin-top: 20px;
     color: white;
     font-size: 15px;
-}
-.right_side_ab{
-    text-align: center;
-    width: fit-content;
-    height: fit-content;
-    padding: 20px;
-    background: rgba(34, 35, 35, 0.6);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-}
-.right_side_ab img{
-    width: 100%;
-    width: 90px;
-    transition: 0.3s;   
 }
 
 .abonements{
@@ -379,6 +372,12 @@ main{
     width: max-content;
     padding: 20px 15px 20px 15px;
     margin-bottom: 50px;
+    transition: all 0.5s ease-out;
+}
+.critics:hover{
+      box-shadow: 0 15px 20px rgba(199, 7, 7, 0.508);
+        transform: translateY(-7px);
+        transition: all 0.5s ease-out;
 }
 .user_name img{
     border-radius: 50%;
@@ -416,7 +415,7 @@ main{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-bottom: 110px;
+   
 }
 .contacts_place{
     display: flex;
